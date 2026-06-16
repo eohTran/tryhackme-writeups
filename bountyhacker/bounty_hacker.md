@@ -1,6 +1,4 @@
-Bounty Hacker
-
-https://tryhackme.com/room/cowboyhacker
+Bounty Hacker: https://tryhackme.com/room/cowboyhacker
 
 First questions ask us to deploy both the attack machine and lab machine before starting the lab. In this lab I will be using the attackbox provided by tryhackme.
 
