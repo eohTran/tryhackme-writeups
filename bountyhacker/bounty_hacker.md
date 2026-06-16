@@ -4,11 +4,17 @@ First questions ask us to deploy both the attack machine and lab machine before 
 
 ![question1](question1.png)
 
-Second questions has us find open ports on the machine. Network ports are endpoints for software program and network services. To find the open ports we will use a nmap which is a reconnaissance tools used to scan a user's ip for ports.
+Second questions has us find open ports on the machine. Network ports are endpoints for software program and network services. To find the open ports we will use nmap which is a reconnaissance tools used to scan a user's ip for ports.
 
-From the scan we're able to find three open ports. Let's open FTP to see what we can find.
+nmap [ip address]
+
+From the scan we're able to find three open ports.
 
 ![question2](question2.png)
+
+Let's open FTP to see what we can find.
+
+FTP  [ip address]
 
 Logging in through ftp it seems that there is no credentials needed and that you can login in anoymously which allows us to access the public data on ftp. Opening the directory we can find two files that we can then download onto our machine.
 
