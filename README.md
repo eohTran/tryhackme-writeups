@@ -13,5 +13,5 @@ for these writeup I will occassionally using the attackbox, but for most of thes
 | CTF Writeups |
 | -------- |
 | [bounty hacker](https://github.com/eohTran/tryhackme-writeups/blob/36b99c1ea3c236a4e78b46a3c9dfc6bbe756dca8/bountyhacker/bounty_hacker.md) | 
-| [brooklyn nine nine]() | 
-
+| [brooklyn nine nine](https://github.com/eohTran/tryhackme-writeups/blob/6b878483cb5e96777a3521152287134b1e01444b/brooklynninenine/brooklyn_nine_nine.md) | 
+|[biohazard]()|
