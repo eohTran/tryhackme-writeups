@@ -7,11 +7,16 @@ some tryhackme labs will require that you connect to their lab machine via your 
 1. using their own "attackbox" web-based machines that is easy to access however you only get access to their machines 60 min/day
 2. using your own operating system and connecting into tryhackme's network through openvpn. 
 
-for these writeup I will occassionally using the attackbox, but for most of these labs i will be running it off of my own device.
-
 
 | CTF Writeups |
 | -------- |
 | [bounty hacker](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/bountyhacker/bounty_hacker.md) | 
-| [brooklyn nine nine](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/bountyhacker/bounty_hacker.md) | 
+| [brooklyn nine nine](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/brooklynninenine/brooklyn_nine_nine.md) | 
 |[biohazard](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/biohazard/biohazard.md)|
+|[flatline](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/flatline/flatline.md)|
+
+
+
+| Resources |
+| -------- |
+|[tools and website used](https://github.com/eohTran/tryhackme-writeups/blob/main/resources/resource.md)|

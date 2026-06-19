@@ -65,4 +65,6 @@ doing this successfully gives me root
 ![alt text](image-5.png)
 
 we can then navigate to the root files where we we can find the root flag 
+
 ![alt text](image-6.png)
+

@@ -79,7 +79,7 @@ pasting these commands into jake's ssh successfully gives us root access. and we
 ![alt text](image-12.png)
 
 
-Following tools used:
+Tools used:
 
 Nmap - port scanning
 
