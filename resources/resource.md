@@ -1,18 +1,16 @@
-## Resources:
-all items in this resource page are tools and website used in the tryhackme room
+## Resources: tools and website used in the tryhackme room/repository
 
-## Websites:
 
-https://gtfobins.org/
+### Websites:
 
-## Network Tools:
+* https://gtfobins.org/
+* https://pequalsnp-team.github.io/cheatsheet/writing-good-writeup
 
-**Nmap** - network scanner
+### Reconnaissance Tools:
 
-**Zenmap** - GUI network scanner
+* **Nmap** - network scanner
 
-## Bruteforce Tools:
+### Bruteforce Tools:
 
-**Hydra** - network bruteforcer
-
-**Stegcracker** - media file bruteforcer
+* **Hydra** - network bruteforcer
+* **Stegcracker** - media file bruteforcer
