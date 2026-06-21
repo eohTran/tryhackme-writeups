@@ -30,8 +30,6 @@ In the website is a redirect link that sends me to a subdirectory of the domain 
 
 In the diningroom directory is another redirect. This redirect leads directly to the emblem flag.
 
-![alt text](image-5.png)
-
 ![alt text](image-6.png)
 
 the emblem page also says to go back and refresh the diningroom page.  refreshing the page adds a prompt that lets me add a flag. placing the emblem flag back into the input does nothing. maybe we can come back to this later with a different flag?
@@ -48,7 +46,7 @@ pasting this code into gemeni tells me that it is a base64 encoded string, but t
 
 and it is!
 
-going back to the question the flag we're looking for is the lock pick flag. i'll first try pressing the redirect link called Lockpick. 
+going back to the question the flag we're looking for is the lock pick flag. i'll first try pressing the redirect link in the teaRoom
 
 ![alt text](image-8.png)
 
@@ -58,5 +56,13 @@ This ends up revealing the lockpick flag
 ![alt text](image-9.png)
 
 since inspect element doesn't reveal anything else, i will continue onto the next the subdirectory which is artRoom
+
+Inside of artRoom shows another link that redirects to a html file of a map with a list of subdirectories
+
+![alt text](image-10.png)
+
+I've already been to the first three rooms in the list, so I'll start making my way down the list starting with barRoom
+
+Inside of the barRoom ask for the lockpick flag
 
 ## in progress
