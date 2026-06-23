@@ -11,6 +11,7 @@
     * [Directory Enumeration](#directory-enumeration)
     * [HTTP Enumeration](#http-enumeration)
 * [Reverse Shell](#reverse-shell)
+* [Privilege Escalation](#privilege-escalationn)
 
 ## Deploy Machine
 
@@ -69,8 +70,48 @@ Going through each subdirectory, the only one that looks weird is panel. From th
 
 ![alt text](image-7.png)
 
-If I try pressing the upload button is presents a text in spanish which translates to "Error sending the file". Inspecting the element I realized that the main page shows the ssh which is ``root@rootme``
+If I try pressing the upload button is presents a text in spanish which translates to "Error sending the file". Inspecting the element reveals no hints or clues that gives of us a hand. However, I realized that the main page shows the ssh which is ``root@rootme``
 
 ##  Reverse Shell
+Going back to the room, it asks us to find a form to upload and get a reverse shell. Since I'm unsure about what form to try first I'll use the hint provided by the room. The hint says to search for php reverse shell.  The first result shows a github reposit  for a php reverse shell: [pentestmonkey](https://github.com/pentestmonkey/php-reverse-shell)
 
-Going back to the room, it asks us to find a form to upload and get a reverse shell. Let's go ahead and test different forms to see which one works with the websitel. We can start with PHP to see if they have it enabled on the server
+The PHP file has two parameters that you need to change to use it
+
+![alt text](image-8.png)
+
+Both the IP and port be will match what your attacking machine will be doing. To find your attacker machine's ip a simple command such as ``ifconfig`` will show you all running network interfaces. A simple reminder that tun0 is the VPN interface and eth0 is your ethernet.
+
+Uploading the .php file gives us a error that says "PHP is not allowed!". This could mean that the server has a filter that prevents PHP files.
+
+![alt text](image-9.png)
+
+I decided to search up for different php file extensions and decided to try PHHTML because it allows both PHP and HTML which might get pass the filtering system. And it turns out it does works!
+
+![alt text](image-10.png)
+
+Now that we've successfully uploaded the phtml file we can need to find a way to connect to the shell. Doing a quick google search shows that the tool Netcat can be used to connect to the shell. Doing a quick search on formatting shows us a basic format to use. The l says to listen for connections, v stands for verbose which speeds up the process, and p stands for port which tells which port to listen to.
+
+![alt text](image-11.png)
+
+After setting up netcat we now need a way to active the reverse shell. One way we can do that is by heading to the /upload/ subdirectiory where we can activate the PHTML file. And just like that we're inside machine
+
+![alt text](image-12.png)
+
+Now to find the user file we can use the ``find`` command
+
+The specific command I will run is: ``find / -type f -name "user.txt"`` 
+
+The / will start from the root directory and will search for a file type with the name user.txt. Doing this however gives us results with errors. 
+
+![alt text](image-13.png)
+
+
+To minimize this I found an extra parameter  that removes errors ``2>/dev/null``. Doing this allows us find the results.
+
+![alt text](image-15.png)
+
+## Privilege Escalation
+Now that we're inside of the shell we need to find a way to escalate to root privilege. Using the hint, it says that we can look for the key file by using `` find / -user root -perm /4000``. Doing this presents with a large number of errors, so we'll do the same thing again by adding ``2>/dev/null`` to remove the errors.
+
+
+
