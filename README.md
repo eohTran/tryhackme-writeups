@@ -15,9 +15,8 @@ Some tryhackme labs will require that you connect to their lab machine via your 
 ## Rooms:
 | CTF Writeups | Difficulty | Completion |
 | -------- | -------- | -------- |
-| [bounty hacker](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/bountyhacker/bounty_hacker.md) | easy | done |
-| [brooklyn nine nine](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/brooklynninenine/brooklyn_nine_nine.md) | easy | done |
-|[biohazard](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/biohazard/biohazard.md)| very easy | in progress |
+| [bounty hacker](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/bountyhacker/bounty_hacker.md) | very easy | done |
+| [brooklyn nine nine](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/brooklynninenine/brooklyn_nine_nine.md) | very easy | done |
 |[rootme](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/rootme/rootme.md)| easy | in progress |
 
 
