@@ -113,5 +113,22 @@ To minimize this I found an extra parameter  that removes errors ``2>/dev/null``
 ## Privilege Escalation
 Now that we're inside of the shell we need to find a way to escalate to root privilege. Using the hint, it says that we can look for the key file by using `` find / -user root -perm /4000``. Doing this presents with a large number of errors, so we'll do the same thing again by adding ``2>/dev/null`` to remove the errors.
 
+There was a lot of different SUID executables that the user had access to, so I did a quick search for what the answer was because I was stuck on it for a while. The weird SUID file that they mentioned was python2.7, which makes sense because it allows users to execute code.
 
+![alt text](image-14.png)
 
+Additionally I found out from the walkthrough that you can do ``ls -la <file>`` which tells you who is the group owner and file owner of the file. This is useful to know when you are trying to find which files are owned by root and have special permissions such as SUID. 
+
+![alt text](image-16.png)
+
+![alt text](image-17.png)
+
+Now that we know which SUID is vulnerable we can look on GTFOBin for the executable. And just like that we now have root access.
+
+![alt text](image-18.png)
+
+Now that we have root we can just navigate to the root directory and find the final flag. And just like that we've completed the room!
+
+![alt text](image-19.png)
+
+## Reflection
