@@ -11,7 +11,7 @@
     * [Directory Enumeration](#directory-enumeration)
     * [HTTP Enumeration](#http-enumeration)
 * [Reverse Shell](#reverse-shell)
-* [Privilege Escalation](#privilege-escalationn)
+* [Privilege Escalation](#privilege-escalation)
 
 ## Deploy Machine
 

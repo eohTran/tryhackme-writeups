@@ -13,12 +13,12 @@ Some tryhackme labs will require that you connect to their lab machine via your 
 2. Using your own operating system and connecting into tryhackme's network through openvpn. 
 
 ## Rooms:
-| CTF Writeups | Difficulty | Completion |
-| -------- | -------- | -------- |
+| CTF Writeups | Difficulty | Completion | 
+| -------- | -------- | -------- | 
 | [bounty hacker](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/bountyhacker/bounty_hacker.md) | very easy | done |
 | [brooklyn nine nine](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/brooklynninenine/brooklyn_nine_nine.md) | very easy | done |
-|[rootme](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/rootme/rootme.md)| easy | in progress |
-
+|[rootme](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/rootme/rootme.md)| easy | done |
+|[startup](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/startup/startup.md)| easy | in progress |
 
 ## Resources:
 
