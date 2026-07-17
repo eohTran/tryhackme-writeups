@@ -30,9 +30,9 @@ inside of kali linux are a assortment of different wordlist. for the jpg i will 
 
 ``stegcracker brooklyn99.jpg rockyou.txt``
 
-using stegcracker reveals a hidden password,  all we need now is a username
+using stegcracker reveals a hidden password for holt's SSH
 
-![alt text](image.png)
+![alt text](image-10.png)
 
 ## Port Scanning
 I initally forgot to perform a network scan using Nmap. 
@@ -59,25 +59,13 @@ Inside of the txt file we find three names. Amy, Jake, and Holt.
 ![alt text](image-4.png)
 
 ## SSH Bruteforce
-Now that we have names, we can try plugging them into SSH. I'll first try Jake since the note asked jake to change his password.
+Now that we have names, we can try plugging them into SSH. I'll first try Holt using the hidden password from the stenography
 
 ![alt text](image-5.png)
 
-When I enter the password into jake's ssh it ends up being wrong. So I tryed it for the other two user which also didn't work. Maybe I could try bruteforcing the SSH since amy said that jake's password is weak. For this bruteforce I will be using hydra which is a network password cracker tool. I will use jake as the user and rockyou as the password list. 
+And just like that we have access into Holt's SSH. Inside of Holt's ssh she has a save file and a text file. Inside of the text file contains the user flag. 
 
-``hydra -l jake -P rockyou.txt <target-ip> ssh``
-
-From hydra I was able to uncover a password for jake
-
-![alt text](image-6.png)
-
-Using the password I was able to login into jake's ssh successfully
-
-![alt text](image-7.png)
-
-using ls reveals no files, but if we back out of the directory we can find three different folders. when we look inside of holt's folder we find two files one of which contains the flag for the first question
-
-![alt text](image-8.png)
+![alt text](image-14.png)
 
 ## Privilege Escalation
 the second question ask us to find a the flag for the root user. somehow we need to escalate our level to root. first thing we can do is see what root commands we can access without a password
