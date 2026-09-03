@@ -1,6 +1,6 @@
 # RootMe
 
-[RootMe](https://tryhackme.com/room/rrootme) - description later
+[RootMe](https://tryhackme.com/room/rrootme) - RootMe is a easy boot2root lab involving enumeration, reverse shell, and privilege escalation.
 
 ### Table of contents:
 * [Deploy Machine](#Deploy-Machine)
@@ -132,3 +132,12 @@ Now that we have root we can just navigate to the root directory and find the fi
 ![alt text](image-19.png)
 
 ## Reflection
+
+This lab was the first lab where I used and learned about reverse shell. Before completing this lab, I did a bit of research into when you would use reverse shell. For this lab is make perfect sense since there is an upload page that gives us write permission. I know that it works because when I upload a ``reverse shell`` into the webserver, it becomes visible in the file subdirectory.
+
+Learning to use reverse shell also taught me about ``netcat`` which is a listening tool that allows us to remotely access the shell. This tools gives me a new possiblity into getting in a machine.
+
+This lab has also improve my linux commands. I learned about the find command as well as the  shortcut command``2>/dev/null`` that removes errors. Using ``ls -la <file>`` is also an important command to key in mind when you're in the machine because it can show you that user has suid which gives root privielages.
+
+Doing this lab has harden my pentesting framework and given a bigger toolkit to use. It has also helped me to better structure my writeup.
+
