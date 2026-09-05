@@ -6,6 +6,7 @@
 * https://gtfobins.org/
 * https://pequalsnp-team.github.io/cheatsheet/writing-good-writeup
 * https://github.com/pentestmonkey/php-reverse-shell
+* https://wordpress.com/support/markdown-quick-reference/
 
 ### Enumeration Tools:
 
