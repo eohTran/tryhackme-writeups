@@ -24,7 +24,7 @@ Some TryHackMe labs will require that you connect to their lab machine via your 
 ## Blue Team Rooms:
 | CTF Writeups | Difficulty | Completion | 
 | -------- | -------- | -------- | 
-| [Introduction to SIEM](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/introductiontosiem/introduction_to_siem.md) | easy | have not started |
+| [Introduction to SIEM](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/introductiontosiem/introduction_to_siem.md) | easy | done |
 
 ## Resources:
 
