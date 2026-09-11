@@ -18,14 +18,14 @@ Some TryHackMe labs will require that you connect to their lab machine via your 
 | [bounty hacker](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/bountyhacker/bounty_hacker.md) | easy | done |
 | [brooklyn nine nine](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/brooklynninenine/brooklyn_nine_nine.md) | easy | done |
 |[rootme](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/rootme/rootme.md)| easy | done |
-|[startup](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/startup/startup.md)| easy | in progress |
+|[startup](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/startup/startup.md)| easy | postpone |
 |[Ignite](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/ignite/ignite.md)| easy | have not started |
 
 ## Blue Team Rooms:
 | CTF Writeups | Difficulty | Completion | 
 | -------- | -------- | -------- | 
 | [Introduction to SIEM](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/introductiontosiem/introduction_to_siem.md) | easy | done |
-
+| [ParrotPost: Phishing Analysis](https://github.com/eohTran/tryhackme-writeups/blob/main/tryhackme-rooms/ParrotPost:_Phishing_Analysis/introduction_to_siem.md) | easy | in progress |
 ## Resources:
 
 [Tools and website used](https://github.com/eohTran/tryhackme-writeups/blob/main/resources/resource.md)
