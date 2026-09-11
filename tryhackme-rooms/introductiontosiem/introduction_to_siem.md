@@ -90,3 +90,5 @@ Which option best represents the event? Choose from the following:
 ## Reflection
 
 Before doing this room, I didn’t know what SIEM was, let alone what it stood for. SIEM, which stands for Security Information and Event Management, is a security tool used to ingest and aggregate massive amounts of logs into one detailed dashboard. Within the dashboard, analysts can create detection rules to monitor millions of logs and identify potential security threats. The main purpose of a SIEM is to make it easier for analysts to focus on the most important parts of their job rather than manually analyzing millions of logs at a time.
+
+Now that I've finished this room, I'm excited to experiment and create a project involving a SIEM in order to recreate and analyze logs like a real SOC analyst.
